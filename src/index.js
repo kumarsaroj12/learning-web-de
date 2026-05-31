@@ -12,3 +12,4 @@ function outer() {
 outer();
 outer();
 outer();
+outer();
