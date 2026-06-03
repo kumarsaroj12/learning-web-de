@@ -73,17 +73,50 @@
 
 
 
-const Saroj = {
-    Age : 22,
-    College : "MNIT Jaipur",
-    Address : {
-        City : "Patna",
-        State : "Bihar",
-        PinCode : 841402
-    }
-};
+// const Saroj = {
+//     Age : 22,
+//     College : "MNIT Jaipur",
+//     Address : {
+//         City : "Patna",
+//         State : "Bihar",
+//         PinCode : 841402
+//     }
+// };
 
-const {College,Address,Age} = Saroj;
-console.log(Age);
-console.log(College);
-console.log(Address);
+// const {College,Address,Age} = Saroj;
+// console.log(Age);
+// console.log(College);
+// console.log(Address);
+
+
+// console.log("First");
+// function greet(name) {
+//     console.log("Hello" + name );
+// };
+// greet("Saroj");
+// console.log("second");
+
+// function first() {
+//     console.log("Inside First");
+
+//     second();
+// }
+
+// function second() {
+//     console.log("Inside Second");
+// }
+
+// first();
+
+
+console.log("A");
+
+setTimeout(() => {
+    console.log("B");
+}, 0);
+console.log("C");
+
+
+
+
+
